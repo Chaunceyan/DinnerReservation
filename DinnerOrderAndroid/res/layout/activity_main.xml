@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="#ffffff"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+    <ImageView
+        android:id="@+id/cursor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:translationX="10dp"
+        android:scaleType="matrix"
+        android:src="@drawable/a" />
+
+    <LinearLayout
+        android:id="@+id/product_detail_linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/index"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/index"
+            android:textColor="#000000"
+            android:textSize="20.0dip" />
+
+        <TextView
+            android:id="@+id/shop_car"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/shop_car"
+            android:textColor="#000000"
+            android:textSize="20.0dip" />
+
+        <TextView
+            android:id="@+id/user_info"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/user_info"
+            android:textColor="#000000"
+            android:textSize="20.0dip" />
+
+        <TextView
+            android:id="@+id/more"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/more"
+            android:textColor="#000000"
+            android:textSize="20.0dip" />
+    </LinearLayout>
+
+</LinearLayout>

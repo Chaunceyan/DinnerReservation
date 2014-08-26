@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/DinnerOrder/!svn/ver/9/DinnerOrder/src/com/order/dao/subsystem
+END
+BonuspointsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DinnerOrder/!svn/ver/9/DinnerOrder/src/com/order/dao/subsystem/BonuspointsDAO.java
+END
+OrderdetailsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DinnerOrder/!svn/ver/9/DinnerOrder/src/com/order/dao/subsystem/OrderdetailsDAO.java
+END
+ProductsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DinnerOrder/!svn/ver/9/DinnerOrder/src/com/order/dao/subsystem/ProductsDAO.java
+END
+OrdersDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DinnerOrder/!svn/ver/14/DinnerOrder/src/com/order/dao/subsystem/OrdersDAO.java
+END
+CustomersDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DinnerOrder/!svn/ver/9/DinnerOrder/src/com/order/dao/subsystem/CustomersDAO.java
+END
+PaymethodDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DinnerOrder/!svn/ver/9/DinnerOrder/src/com/order/dao/subsystem/PaymethodDAO.java
+END
+ProductcategoriesDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DinnerOrder/!svn/ver/9/DinnerOrder/src/com/order/dao/subsystem/ProductcategoriesDAO.java
+END
+RestaurantDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DinnerOrder/!svn/ver/9/DinnerOrder/src/com/order/dao/subsystem/RestaurantDAO.java
+END

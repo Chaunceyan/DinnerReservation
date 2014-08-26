@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/DinnerOrder/!svn/ver/9/DinnerOrder/src
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/DinnerOrder/!svn/ver/14/DinnerOrder/src/hibernate.cfg.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/DinnerOrder/!svn/ver/14/DinnerOrder/src/log4j.properties
+END

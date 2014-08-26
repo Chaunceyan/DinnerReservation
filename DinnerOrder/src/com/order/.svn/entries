@@ -1,0 +1,46 @@
+9
+
+dir
+12
+https://dasikei/svn/DinnerOrder/DinnerOrder/src/com/order
+https://dasikei/svn/DinnerOrder
+
+
+
+2014-07-25T06:58:48.000171Z
+9
+zhuwei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ea0421df-3005-1e40-8070-df3196fbeb23
+
+bean
+dir
+
+bll
+dir
+
+dao
+dir
+
+servlet
+dir
+
+sessionfactory
+dir
+
+tool
+dir
+

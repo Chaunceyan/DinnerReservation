@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowOrder</servlet-name>
+    <servlet-class>com.order.servlet.web.ShowOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowOrderDetailServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.ShowOrderDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BonusPointServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.usermanage.BonusPointServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SingleOptServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.SingleOptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyNowServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.BuyNowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeNumServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.ChangeNumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelOneCartItemServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.DelOneCartItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelAllCartItemServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.DelAllCartItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.PayServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mainServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.mainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AndroidLoginServlet</servlet-name>
+    <servlet-class>com.order.servlet.android.AndroidLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AndroidRegisterServlet</servlet-name>
+    <servlet-class>com.order.servlet.android.AndroidRegisterServlet</servlet-class>
+  </servlet>
+  
+
+  <servlet-mapping>
+    <servlet-name>mainServlet</servlet-name>
+    <url-pattern>/mainServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ShowVeg</servlet-name>
+    <servlet-class>com.order.servlet.web.ShowVegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignInServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.SignInServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignOutServlet</servlet-name>
+    <servlet-class>com.order.servlet.web.SignOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>com.order.servlet.android.Test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAndroidServlet</servlet-name>
+    <servlet-class>com.order.servlet.android.LoginAndroidServlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showOrderServletAndroid</servlet-name>
+    <servlet-class>com.order.servlet.android.showOrderServletAndroid</servlet-class>
+  </servlet>
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayServletAndroid</servlet-name>
+    <servlet-class>com.order.servlet.android.PayServletAndroid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowCustomerInfoServlet</servlet-name>
+    <servlet-class>com.order.servlet.android.ShowCustomerInfoServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>PayServletAndroid</servlet-name>
+    <url-pattern>/servlet/PayServletAndroid</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ShowVeg</servlet-name>
+    <url-pattern>/servlet/ShowVegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AndroidLoginServlet</servlet-name>
+    <url-pattern>/servlet/AndroidLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AndroidRegisterServlet</servlet-name>
+    <url-pattern>/servlet/AndroidRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>mainServlet</welcome-file>
+  </welcome-file-list>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>showOrderServletAndroid</servlet-name>
+    <url-pattern>/servlet/showOrderServletAndroid</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ShowOrder</servlet-name>
+    <url-pattern>/servlet/ShowOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowOrderDetailServlet</servlet-name>
+    <url-pattern>/servlet/ShowOrderDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BonusPointServlet</servlet-name>
+    <url-pattern>/servlet/BonusPointServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SingleOptServlet</servlet-name>
+    <url-pattern>/servlet/SingleOptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyNowServlet</servlet-name>
+    <url-pattern>/servlet/BuyNowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeNumServlet</servlet-name>
+    <url-pattern>/servlet/ChangeNumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelOneCartItemServlet</servlet-name>
+    <url-pattern>/servlet/DelOneCartItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelAllCartItemServlet</servlet-name>
+    <url-pattern>/servlet/DelAllCartItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayServlet</servlet-name>
+    <url-pattern>/servlet/PayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignInServlet</servlet-name>
+    <url-pattern>/servlet/SignInServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignOutServlet</servlet-name>
+    <url-pattern>/servlet/SignOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/servlet/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAndroidServlet</servlet-name>
+    <url-pattern>/servlet/LoginAndroidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowCustomerInfoServlet</servlet-name>
+    <url-pattern>/servlet/ShowCustomerInfoServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

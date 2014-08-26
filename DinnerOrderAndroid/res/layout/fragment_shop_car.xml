@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/abc_menu_dropdown_panel_holo_dark"
+    android:orientation="vertical" >
+
+  
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="391dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="序号" />
+
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="菜名" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="价格" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="数量" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="小计" />
+            </LinearLayout>
+            <!-- ListView控件 -->
+
+            
+
+           
+
+            <Button
+                android:id="@+id/fragment_shop_car_pay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#aaaaaa"
+                android:text="结算"
+                android:textSize="20sp" />
+            <ListView
+                android:id="@+id/fragment_shop_Car_listView"
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="false" >
+            </ListView>
+        </LinearLayout>
+
+</LinearLayout>

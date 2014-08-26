@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/DinnerOrder/!svn/ver/2/DinnerOrder/src/com/order/servlet/web
+END
+BonusPointServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DinnerOrder/!svn/ver/15/DinnerOrder/src/com/order/servlet/web/BonusPointServlet.java
+END
+ShowOrderServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DinnerOrder/!svn/ver/15/DinnerOrder/src/com/order/servlet/web/ShowOrderServlet.java
+END
+ShowOrderDetailServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DinnerOrder/!svn/ver/15/DinnerOrder/src/com/order/servlet/web/ShowOrderDetailServlet.java
+END

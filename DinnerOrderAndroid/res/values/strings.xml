@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DinnerOrderAndroidClient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="index">首页</string>
+    <string name="shop_car">购物车</string>
+    <string name="user_info">个人信息</string>
+    <string name="more">more</string>
+    <string name="receive_address">收货地址</string>
+    <string name="receive_man">收货人：</string>
+    <string name="detail_address">详细地址：</string>
+    <string name="contact_method">联系方式：</string>
+    <string name="order_method">订餐方式：</string>
+    <string name="network_order">网络点餐</string>
+    <string name="click_change">(点击切换)</string>
+    <string name="order_time_text">送餐时间段：</string>
+    <string name="order_all_count">订餐总份数：</string>
+    <string name="piece">份</string>
+    <string name="order_account">订单总价(不含运送费)：</string>
+    <string name="yuan">元</string>
+    <string name="pay_for_order">结算    </string>
+    <string name="pay_method">支付方式：</string>
+    <string name="i_want_order">我要订餐</string>
+    <string name="chinese_food">中餐</string>
+    <string name="western_food">西餐</string>
+    <string name="my_order">我的订单</string>
+    <string name="my_shopcar">我的购物车</string>
+        <string name="username">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="address">地址：</string>
+    <string name="email">email：</string>
+    <string name="phone">电话：</string>
+    <string name="ok">注册</string>
+    <string name="cancel">取消</string>
+    <string name="productname">菜名：</string>
+    <string name="discount">限时打折</string>
+    <string name="disbegin">开始时间：</string>
+    <string name="disend">结束时间：</string>
+    <string name="productprice">价格：</string>
+    <string name="productdes">菜品描述：</string>
+    <string name="buy">购买</string>
+    <string name="back">返回</string>
+    <string name="pay_the_order">付款</string>
+
+</resources>

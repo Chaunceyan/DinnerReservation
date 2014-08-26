@@ -1,0 +1,14 @@
+package com.order.bll;
+
+import com.order.bean.Customers;
+import com.order.dao.subsystem.CustomersDAO;
+
+public class ex {
+	
+	public static void main(String[] args) {
+		CustomersDAO cd = new CustomersDAO();
+		Customers cus = cd.findById(1);
+		System.out.println(cus.getAddress());
+	}
+
+}

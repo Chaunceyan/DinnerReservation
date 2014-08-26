@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dinnerorder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" ></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" ></uses-permission>
+    <application
+        android:name=".utils.DinnerOrderApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.dinnerorder.activity.MainActivity"
+            android:label="@string/app_name" >
+            <!--  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+             -->
+        </activity>
+        
+        
+                <activity
+            android:name="com.dinnerorder.activity.FirstShowActivity"
+            android:label="@string/app_name" >
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+                
+                
+        <activity
+            android:name="com.dinnerorder.activity.LoginActivity"
+            android:label="@string/app_name" >
+
+          
+   <!--                                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+           
+
+        </activity>
+        <activity
+            android:name="com.dinnerorder.activity.OrderDetailActivity"
+            android:label="@string/app_name" >
+
+            <!--
+                  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.dinnerorder.activity.ProductListShowActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+
+            <!--
+                 <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.dinnerorder.activity.ChineseCategoriesActivity"
+            android:label="@string/app_name" >
+
+            <!--
+                 <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+
+        <activity
+            android:name="com.dinnerorder.activity.RegisterActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.dinnerorder.activity.ProductsDetailActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+
+</manifest>

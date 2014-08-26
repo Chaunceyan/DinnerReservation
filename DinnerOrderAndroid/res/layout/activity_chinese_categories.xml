@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shishishi"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:scaleX="5"
+        android:src="@drawable/shishishi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/chuancai"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/chinese_chuancai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="川菜"
+            android:textColor="#aa0000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/yuecai"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/chinese_yuecai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="粤菜"
+            android:textColor="#bbaa00"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/huicai"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/chinese_huicai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="徽菜"
+            android:textColor="#00bbaa"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/xiangcai"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/chinese_xiangcai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="湘菜"
+            android:textColor="#5500bb"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

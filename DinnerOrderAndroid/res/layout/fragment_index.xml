@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff00"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/logo" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"  >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"  >
+
+        <TextView
+            android:id="@+id/fragment_index_order_dinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/i_want_order"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/order" />
+
+        <TextView
+            android:id="@+id/fragment_index_shop_car"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_shopcar" 
+            android:text="@string/my_shopcar"
+             android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"  >
+
+        <TextView
+            android:id="@+id/fragment_index_chinese_food"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/chinesefood"
+            android:text="@string/chinese_food"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+           	android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/fragment_index_western_food"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/western_food"
+            android:text="@string/western_food"
+             android:layout_weight="1" />
+
+        <!-- <TextView
+            android:id="@+id/fragment_index_my_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:text="@string/my_order"
+            android:background="@drawable/my_order" /> -->
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
